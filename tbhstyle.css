@@ -1,0 +1,61 @@
+body{
+	background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+}
+.heading{
+	background: white;
+}
+.title{
+	font-size: 37px;
+	font-family: 'Joti One', cursive;
+	text-align: center;
+	color: #ff1b6b;
+}
+button{
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: white ;
+	text-align: left;
+	padding: 6px 8px;
+	margin-top: 1px;
+}
+a{
+	text-decoration: none;
+	color:#ff1b6b ;
+}
+.it{
+	font-size: 48px;
+	font-family: 'Qwigley', cursive;
+	position: relative;
+	left: 40px;
+}
+li{
+	position: relative;
+	left: 40px;
+	font-size: 30px;
+	font-family: 'Oregano', cursive;
+	color: red;
+}
+p{
+font-size: 26px;
+	position: relative;
+	left: 40px;
+	word-wrap: break-word;
+	width: 88%;
+   font-family: arial;
+}
+img{
+	width: 25%;
+	height: 25%;
+	float: left;
+}
+ul li{
+	color: black;
+	font-family: arial;
+	font-size: 25px;
+	width: 88%;
+}
+.bo{
+	border-bottom: 2px grey solid;
+}	

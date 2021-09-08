@@ -1,0 +1,49 @@
+body{
+	background: white;
+}
+.heading{
+	background-color: #0A2141;
+    border-bottom: 0.2px #0A2141 solid;
+    border-top: 0.1px #0A2141 solid;
+	
+}
+.title{
+	color: #FCFEE0;
+	font-family:  'Charm', cursive;
+	text-align: center;
+	font-size: 40px;
+}
+button{
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: #0A2141 ;
+	text-align: left;
+	padding: 6px 8px;
+	margin-top: 5px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.mySlides{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	left: 88%;
+}
+li{
+	font-size: 31px;
+	font-family: 'Courgette', cursive;
+	color: #0A2141;
+	position: relative;
+	left: 40px;
+
+}
+p{
+	font-size: 26px;
+	position: relative;
+	left: 40px;
+	word-wrap: break-word;
+	width: 88%;
+}

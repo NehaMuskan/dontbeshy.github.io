@@ -1,0 +1,52 @@
+.body{
+	background-color: #9C8CA5;
+}
+.heading{
+	background-color: #3D0B58;
+	border-bottom: 2px #3D0B58 solid;
+	border-top: 2px #3D0B58 solid;
+
+}
+.title{
+	color: #F38A7F;
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+
+}
+button{
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: #3D0B58 ;
+	text-align: left;
+	padding: 6px 8px;
+	margin-top: 5px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.fq{
+	position: relative;
+	left: 40px;
+	font-family: 'Rampart One', cursive;
+	color: #162B3C;
+}
+ol{
+	font-family: 'Patua One', cursive;
+	color: #75263F;
+
+}
+li{
+	position: relative;
+	left: 35px;
+	font-size: 25px;
+}
+p{
+	position: relative;
+	left: 35px;
+	font-size: 20px;
+	word-wrap: break-word;
+	width: 88%;
+	color: black;
+}

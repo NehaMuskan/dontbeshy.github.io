@@ -1,0 +1,65 @@
+body{
+	background: #FCEEF5;
+}
+.heading{
+	border-bottom: 5px #55AF00 solid;
+	background: #ECE067;
+}
+
+.title{
+	font-family: 'Playball', cursive;
+	text-align: center;
+}
+button{
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	background-color:  #55AF00;
+	color: white;
+	text-align: left;
+	padding: 6px 8px;
+	margin-top: 5px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li{
+	font-family: 'Teko', sans-serif;
+	font-size: 35px;
+	position: relative;
+	left: 10px;
+	text-decoration: underline;
+	text-decoration-color: violet
+}
+.peeimg{
+	width: 20%;
+	height: 25%;
+	float: left;
+}
+p{
+	font-size: 25px;
+	font-family: Roboto;
+	position: relative;
+	left: 40px;
+	word-wrap: break-all;
+	width: 90%;
+}
+.content h2{
+	color: red;
+	position: relative;
+	left: 40px;
+}
+.use{
+	
+	width:25%;
+	height: 30%;
+	position: relative;
+	left: 35%;
+}
+.plink{
+	color: red;
+}
+.linkc{
+	color: blue;
+}

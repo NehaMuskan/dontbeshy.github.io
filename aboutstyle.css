@@ -1,0 +1,111 @@
+.heading{
+	background: black
+}
+.title{
+	color: white;
+	font-size: 37px;
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+}
+button{
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	background-color:black ;
+	text-align: left;
+	padding: 6px 8px;
+	margin-top: 1px;
+}
+a{
+	text-decoration: none;
+	color:white ;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float:  left;
+  width: 34%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+.social{
+	color: grey;
+	text-decoration: none;
+}
+.column2 {
+  float:  right;
+  width: 34%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+ 
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  position: relative;
+  left: 100px;
+  float: left;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  position: relative;
+  right: 100px;
+  
+}
+
+
+
+
+.container {
+  padding: 0 16px;
+}
+
+
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+

@@ -1,0 +1,49 @@
+body{
+	background: linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+	}
+.heading{
+	background: black;
+}
+.title{
+	font-size: 45px;
+	font-family: 'Italianno', cursive;
+	text-align: center;
+	color: grey;
+}
+button{
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	background-color:black ;
+	text-align: left;
+	padding: 6px 8px;
+	margin-top: 1px;
+}
+a{
+	text-decoration: none;
+	color:white ;
+}
+img{
+	position: relative;
+	left: 28%;
+}
+p{
+	font-size: 26px;
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+.in{
+	color: red;
+	font-family: 'Euphoria Script', cursive;
+	position: relative;
+	left: 10%;
+	text-decoration: underline;
+	font-size: 45px;
+}
+li{
+	font-size: 26px;
+	position: relative;
+	left: 10%;
+	width: 80%;
+}

@@ -1,0 +1,234 @@
+body{
+	background: #FCEEF5;
+}
+.head{
+	background: #822659;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	border-bottom: 4px white solid;
+	
+}
+.title{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color:#FFFB56;
+	text-shadow: 2px 2px 5px #FFF376;
+	font-size: 38px;
+}
+
+.menubar {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  padding-left: 10px;
+  text-align: left;
+
+}
+.dropbtn {
+  background-color:#822659 ;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+
+.dropbtn:hover {
+  background-color: #2980B9;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd}
+
+
+.show {display:block;}
+.flex-container {
+  display: flex;
+  background-color:#FCEEF5 ;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.box1{
+	
+  margin: 40px;
+  padding: 120px;
+  transition: transform .2s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin-right: 80px;
+ background-image: url("https://wexnermedical.osu.edu/-/media/images/wexnermedical/blog/2018-stories/09/disappearing-period/periodcalendar_bloglarge.jpg?la=en&hash=3DA20C1F1B0239637CF3B2E30B0769DFFB6CA7AB");
+ background-size: cover;
+ opacity: 0.7;
+ font-size: 30px;
+font-family: 'satisfy',cursive;
+text-align: center;
+}
+.box1:hover{
+	transform: scale(1.2);
+	background-color: #C0B8BB;
+}
+.box1 a:visited{
+	color: #090000 ;
+	text-decoration: none;
+}
+.box1 a:link{
+	text-decoration: none;
+	color: #090000;
+}
+
+
+.box2{
+	 margin: 40px;
+  padding: 120px;
+  transition: transform .2s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin-right: 80px;
+ background-image: url("https://www.nhlbi.nih.gov/sites/default/files/styles/component_banner_small_image_mid_desktop/public/2021-02/21-0267%20iStock-1197693793_1201x433.jpg?h=28c01c1e&itok=LHH-pjqA");
+ background-size: cover;
+ opacity: 0.7;
+ font-size: 30px;
+font-family: 'satisfy',cursive;
+text-align: center;
+}
+.box2:hover{
+	transform: scale(1.2);
+	background-color: #C0B8BB;}
+.box2 a:visited{
+	color: #090000 ;
+	text-decoration: none;
+}
+.box2 a:link{
+	text-decoration: none;
+	color: #090000;
+}
+.box3{
+	 margin: 40px;
+  padding: 120px;
+  transition: transform .2s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin-right: 80px;
+ background-image: url("https://assets-news-bcdn.dailyhunt.in/cmd/resize/400x400_80/fetchdata16/images/d9/a5/98/d9a59833a7891b1e619e1464391adc9b21abf99948e86c6eaf72ae32a75f4bc1.jpg");
+ background-size: cover;
+ opacity: 0.7;
+ font-size: 30px;
+font-family: 'satisfy',cursive;
+text-align: center;
+}
+.box3:hover{
+	transform: scale(1.2);
+	background-color: #C0B8BB;}
+.box3 a:visited{
+	color: #090000;
+	text-decoration: none;
+}
+.box3 a:link{
+	color: #090000;
+	text-decoration: none;
+}	
+.box4{
+  margin: 40px;
+  padding: 120px;
+  transition: transform .2s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin-right: 80px;
+ background-image: url("https://miro.medium.com/max/1000/0*8B5QDSD2O8Vr-5y_");
+ background-size: cover;
+ opacity: 0.7;
+ font-size: 30px;
+ font-family: 'satisfy',cursive;
+ text-align: center;
+}
+.box4:hover{
+	transform: scale(1.2);
+	background-color: #C0B8BB;
+}
+.box4 a:visited{
+	color: #090000;
+	text-decoration: none;
+}
+.box4 a:link{
+	color: #090000;
+	text-decoration: none;
+}
+.box5{
+  margin: 40px;
+  padding: 120px;
+  transition: transform .2s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin-right: 80px ;
+ background-image: url("https://i.pinimg.com/originals/27/77/10/2777101b2c767970ed15650b1b9e263d.jpg");
+ background-size: cover;
+ opacity: 0.7;
+ font-size: 30px;
+ font-family: 'satisfy',cursive;
+ text-align: center;
+}
+.box5:hover{
+	transform: scale(1.2);
+	background-color: #C0B8BB;}	
+.box5 a:visited{
+	color: #090000;
+	text-decoration: none;
+}
+.box5 a:link{
+	color: #090000;
+	text-decoration: none;
+}		
+.box6{
+  margin: 40px;
+  padding: 120px;
+  transition: transform .2s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin-right: 80px;
+ background-image: url("https://previews.123rf.com/images/dragonimages/dragonimages1612/dragonimages161201060/72848904-isolated-image-of-a-smiling-girl-cleaning-her-face-by-water-on-white.jpg");
+ background-size: cover;
+ opacity: 0.7;
+ font-size: 30px;
+ font-family: 'satisfy',cursive;
+ 
+}
+.box6:hover{
+	transform: scale(1.2);
+	background-color: #C0B8BB;}	
+.box6 a:visited{
+	color: #090000;
+	text-decoration: none;
+}
+.box6 a:link{
+	color: #090000;
+	text-decoration: none;
+}
+	
