@@ -29,8 +29,7 @@ a{
 .mySlides{
 	width: 80%;
 	height: 80%;
-	position: relative;
-	left: 88%;
+	
 }
 li{
 	font-size: 31px;
